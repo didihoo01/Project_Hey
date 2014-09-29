@@ -21,6 +21,8 @@
 		170A45B819D9E0C600F59214 /* HeyPeopleChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 170A45B719D9E0C600F59214 /* HeyPeopleChatViewController.m */; };
 		170A45BB19D9E0F800F59214 /* HeyFriendChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 170A45BA19D9E0F800F59214 /* HeyFriendChatViewController.m */; };
 		170A45C319D9E24400F59214 /* HeyGroupChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 170A45C219D9E24400F59214 /* HeyGroupChatViewController.m */; };
+		17DF756219DA05C60007437E /* HeyUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DF756119DA05C60007437E /* HeyUser.m */; };
+		17DF756419DA06AC0007437E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DF756319DA06AC0007437E /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,9 @@
 		170A45BA19D9E0F800F59214 /* HeyFriendChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeyFriendChatViewController.m; sourceTree = "<group>"; };
 		170A45C119D9E24400F59214 /* HeyGroupChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeyGroupChatViewController.h; sourceTree = "<group>"; };
 		170A45C219D9E24400F59214 /* HeyGroupChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeyGroupChatViewController.m; sourceTree = "<group>"; };
+		17DF756019DA05C60007437E /* HeyUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeyUser.h; sourceTree = "<group>"; };
+		17DF756119DA05C60007437E /* HeyUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeyUser.m; sourceTree = "<group>"; };
+		17DF756319DA06AC0007437E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17DF756419DA06AC0007437E /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +89,7 @@
 		170A456919D917B600F59214 = {
 			isa = PBXGroup;
 			children = (
+				17DF756319DA06AC0007437E /* UIKit.framework */,
 				170A457419D917B600F59214 /* Hey */,
 				170A459119D917B600F59214 /* HeyTests */,
 				170A457319D917B600F59214 /* Products */,
@@ -220,6 +227,8 @@
 		170A45D619D9E95500F59214 /* User */ = {
 			isa = PBXGroup;
 			children = (
+				17DF756019DA05C60007437E /* HeyUser.h */,
+				17DF756119DA05C60007437E /* HeyUser.m */,
 			);
 			name = User;
 			sourceTree = "<group>";
@@ -330,6 +339,7 @@
 				170A457B19D917B600F59214 /* AppDelegate.m in Sources */,
 				170A45B819D9E0C600F59214 /* HeyPeopleChatViewController.m in Sources */,
 				170A45B219D9DFFE00F59214 /* HeyFriendsListTableViewController.m in Sources */,
+				17DF756219DA05C60007437E /* HeyUser.m in Sources */,
 				170A45B519D9E02100F59214 /* HeyGroupsListTableViewController.m in Sources */,
 				170A45A019D9183400F59214 /* HEYTabBarController.m in Sources */,
 				170A457819D917B600F59214 /* main.m in Sources */,
@@ -524,6 +534,7 @@
 				170A459A19D917B600F59214 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		170A459B19D917B600F59214 /* Build configuration list for PBXNativeTarget "HeyTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +543,7 @@
 				170A459D19D917B600F59214 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
